@@ -11,6 +11,10 @@
     align-items: center;
     padding: 20px;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 nav{
     flex: 1;
@@ -247,4 +251,35 @@ text-align: center;
     font-weight: bold;
     color: black;
     
+}
+.payment{
+    min-height: 100vh;
+}
+
+.payment,
+.shipping {
+    text-align: center;
+}
+
+.payment, 
+.shipping h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.payment, 
+.shipping input{
+    margin-bottom: 10px;
+}
+
+.payment,
+.shipping select{
+    margin-bottom: 10px;
+}
+
+button {
+    float: right;
+}
+
+.footer-shipping {
+    margin-top: 45vh;
 }
