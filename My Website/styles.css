@@ -256,27 +256,39 @@ text-align: center;
     min-height: 100vh;
 }
 
-.payment,
+.payment {
+    text-align: center;
+}
+
 .shipping {
     text-align: center;
 }
 
-.payment, 
+.payment h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .shipping h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.payment, 
+.payment input{
+    margin-bottom: 10px;
+}
 .shipping input{
     margin-bottom: 10px;
 }
 
-.payment,
+.payment select{
+    margin-bottom: 10px;
+}
+
 .shipping select{
     margin-bottom: 10px;
 }
 
-button {
+.button-ship {
     float: right;
 }
 
