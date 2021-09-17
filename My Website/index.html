@@ -23,6 +23,7 @@
                 <li><a href="">Contact</a></li>
             </ul>
             <div class="img"><img src="image/cart.png" width="40px" height="40px"> </div>
+            <a id="clicks">0</a>
             <input type="text" placeholder="Search..">
         </nav>
     </div>
@@ -63,7 +64,7 @@
         <p class="price">
             $20.00
         </p>
-        <button>
+        <button type="button" onClick="onClick()">
             Add to Cart
         </button>
         </div>
@@ -208,13 +209,19 @@
 </section>
 <div class="footer">
     <div class="col-1-footer"><a href="">Privacy Police</a></div>
-        
     <div class="col-2-footer"><a href="Return police.html">Return Police</a></div>
 
 </div>
 <hr>
 <p class="copyright"> Copyright 2021.</p>
- 
 </div>
 </body>
+<script>
+var clicks = 0;
+
+function onClick() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
+</script>
 </html>
